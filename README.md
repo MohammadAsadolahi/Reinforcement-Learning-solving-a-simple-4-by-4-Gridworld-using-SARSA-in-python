@@ -1,9 +1,6 @@
 # Reinforcement_Learning_solving_a_simple_4_4_Gridworld_using_SARSA
 solving a simple 4*4 Gridworld almost similar to openAI gym FrozenLake using SARSA Temporal difference method Reinforcement Learning  
 
-WRITTEN BY MOHAMMAD ASADOLAHI  
-Mohammad.E.Asadolahi@gmail.com  
-https://github.com/mohammadAsadolahi  
 **!!!! its not deep learning SARSA implementation !!! its deployed using Qtable**   
 ![4*4 gridworld](https://github.com/MohammadAsadolahi/Reinforcement_Learning_solving_a_simple_4_4_Gridworld_using_SARSA-in-python/blob/main/a%20simple%204%20by%204%20Gridworld.png)  
 this program is using Reinfrocement learning to solve a 4*4 gridworld like frozen lake enviroment in open ai gym  
