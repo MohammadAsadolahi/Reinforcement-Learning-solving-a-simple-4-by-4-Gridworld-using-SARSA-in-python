@@ -6,8 +6,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
-[![RL](https://img.shields.io/badge/Reinforcement_Learning-SARSA-FF6F00?style=for-the-badge&logo=openai&logoColor=white)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![RL](https://img.shields.io/badge/Reinforcement_Learning-SARSA-FF6F00?style=for-the-badge)](#)
 
 *A clean, from-scratch implementation of the SARSA (State-Action-Reward-State-Action) on-policy TD control algorithm — no deep learning frameworks, no black boxes — just the core mathematics of reinforcement learning rendered in pure Python.*
 
@@ -184,7 +183,7 @@ With ε = 0.01, the agent heavily exploits its learned policy (99.1%) while main
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Reinforcement-Learning-solving-a-simple-4-by-4-Gridworld-using-SARSA-in-python.git
+git clone https://github.com/MohammadAsadolahi/Reinforcement-Learning-solving-a-simple-4-by-4-Gridworld-using-SARSA-in-python.git
 cd Reinforcement-Learning-solving-a-simple-4-by-4-Gridworld-using-SARSA-in-python
 
 # Install dependencies
@@ -203,7 +202,7 @@ python generate_plots.py
 
 ### Architecture
 
-- **`GridWorld`** — Environment class implementing the MDP: state transitions, reward function, terminal detection, and boundary-constrained action spaces. Fully configurable grid size and reward structure.
+- **`GridWorld`** — Environment class implementing the MDP: state transitions, reward function, terminal detection, and boundary-constrained action spaces.
 
 - **`Agent`** — SARSA learner with ε-greedy action selection, tabular Q-function, and policy improvement. Tracks exploration/exploitation statistics for analysis.
 
@@ -243,130 +242,14 @@ This tabular implementation serves as a foundation for more advanced RL explorat
 
 *Built with NumPy and first-principles thinking.*
 
+**[Mohammad Asadolahi](https://github.com/MohammadAsadolahi)** — Senior Agentic AI Engineer | Agentic AI Architectures In The Wild
+
 </div>
-  --------------------------------  
-  step:400  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-      
-      
-      
-  --------------------------------  
-  step:600  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-      
-      
-      
-  --------------------------------  
-  step:800  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-      
-      
-      
-  --------------------------------  
-  step:1000  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-      
-      
-      
-  --------------------------------  
-  step:1200  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-      
-      
-      
-  --------------------------------  
-  step:1400  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-      
-      
-      
-  --------------------------------  
-  step:1600  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-      
-      
-      
-  --------------------------------  
-  step:1800  
-  --------------------------------  
-     | D |  | D |  | D |  | L |   
-    ----------------------------  
-     | R |  | R |  | D |  | D |   
-    ----------------------------  
-     | U |  | R |  | D |  | L |   
-    ----------------------------  
-     | U |  | L |  | R |   
-    ----------------------------  
-      
-      
-    exploited:23385  explored:224  
+
+---
+
+<div align="center">
+
+<sub>This README was generated with AI assistance.</sub>
+
+</div>
